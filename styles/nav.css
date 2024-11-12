@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+  
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 18%;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+}
+
+span {
+    color: aquamarine;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s; /* Agregado */
+}
+
+nav ul li a:hover {
+    color:  aquamarine;
+}
+
+.welcome-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 350px;
+    background-image: url('https://st3.depositphotos.com/13324256/16930/i/600/depositphotos_169301856-stock-photo-plate-with-bathroom-salt-and.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(61, 61, 61, 0.2),
+               0 0 20px rgba(61, 61, 61, 0.4) inset;
+    outline: 10px solid rgba(61, 61, 61, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .welcome-box .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff; /* Blanco */
+    margin-bottom: 10px;
+  }
+  
+  .welcome-box .text {
+    font-size: 18px;
+    color: #ffffff; /* Blanco */
+  }
+.conocenos {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.conocenos h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.conocenos p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.carrusel {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.carrusel img {
+  width: 25%;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #000000;
+  }
+  
+  

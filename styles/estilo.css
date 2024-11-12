@@ -1,0 +1,185 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        .search-container {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .search-container input[type=text] {
+            padding: 6px;
+            margin-right: 5px;
+            width: 200px;
+            box-sizing: border-box;
+        }
+        .search-container button {
+            padding: 6px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color:rgb(209, 240, 199);
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        margin-top: 20px;
+        padding: 30px;
+        background-color: whitesmoke;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    h3 {
+        color: #013220;
+        margin-bottom: 20px;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 auto;
+        border: 1px solid #ddd;
+        padding: 10px;
+        background-color: rgb(174, 200, 166);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    p {
+        color: #6c757d;
+        font-size: 1.125rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .input-group {
+ 
+        padding: 10px;
+        background-color: rgb(139, 160, 133);
+        border: 1px solid #013220;
+    }
+
+    .input-group input {
+  
+       border-radius: 8px 0 0 8px;
+       border: 1px solid #013220;
+       font-size: 1rem;
+       padding: 10px;
+       width: 100%;
+    }
+    .input-group button {
+        border-radius: 0 8px 8px 0;
+        border: 1px solid rgb(139, 160, 133);
+        background-color: rgb(174, 200, 166);
+        color: black;
+        font-size: 1rem;
+    }
+    .input-group button:hover {
+        background-color:rgb(83, 137, 118);
+    }
+    .form-control-plaintext {
+        background-color: #e9ecef;
+        border: 1px solid rgb(174, 200, 166);;
+        padding: 10px;
+        border-radius: 8px;
+        font-size: 1.125rem;
+        color: rgb(53, 87, 75);
+    }
+
+    h4 {
+        color: #013220;
+        font-size: 1.5rem;
+        margin-top: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    h5 {
+        color: #013220;
+        font-size: 1.25rem;
+        margin-top: 20px;
+        text-align: left;
+    }
+    h6 {
+        color: #6c757d;
+        font-size: 1.25rem;
+        margin-top: 20px;
+        text-align: center;
+    }
+    table {
+        margin-top: 20px;
+        border-collapse: collapse;
+        width: 100%;
+        
+    }
+    th, td {
+        border: 1px solid rgb(53, 87, 75);
+        padding: 12px;
+        text-align: center;
+        font-size: 1rem;
+        
+    }
+    th {
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+    tbody tr:nth-child(even) {
+        background-color: #f8f9fa;
+    }
+    tbody tr:hover {
+        background-color: #e9ecef;
+    }
+    .btn-custom {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+    .btn-custom:hover {
+        background-color: rgb(66, 109, 94);;
+    }
+    .alert {
+        margin-top: 20px;
+        font-size: 1.125rem;
+    }
+    .btn-custom {
+     background-color: rgb(254, 196, 174);
+     color: rgb(204, 108, 100);
+     padding: 5px 10px;
+     border: none;
+     border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .btn-custom {
+    background-color: rgb(254, 196, 174);
+    color: rgb(204, 108, 100);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }

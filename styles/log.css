@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://img.freepik.com/foto-gratis/concepto-belleza-copyspace-derecha_23-2147817635.jpg?w=740&t=st=1724705639~exp=1724706239~hmac=c3f6b1d2565cfe4b04cc716f5d61641c0fe6a73a46574cf24602e6e8a2c37fcf);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
+
+  .contenedor {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 500px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #526b87;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  button:hover {
+    background-color: #9f3d19;
+  }
+
+  .forgot {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .signup {
+    text-align: center;
+  }

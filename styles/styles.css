@@ -1,0 +1,115 @@
+:root {
+    /* Variaciones de FFD5A6 */
+    --color1-dark: rgb(204, 170, 133);
+    --color1: rgb(255, 213, 166);
+    --color1-light: rgb(255, 234, 204);
+
+    /* Variaciones de FF887E */
+    --color2-dark: rgb(204, 108, 100);
+    --color2: rgb(255, 136, 126);
+    --color2-light: rgb(255, 173, 169);
+
+    /* Variaciones de C2CF66 */
+    --color3-dark: rgb(155, 166, 82);
+    --color3: rgb(194, 207, 102);
+    --color3-light: rgb(233, 248, 123);
+
+    /* Variaciones de 426D5E */
+    --color4-dark: rgb(53, 87, 75);
+    --color4: rgb(66, 109, 94);
+    --color4-light: rgb(83, 137, 118);
+
+    /* Variaciones de FEC4AE */
+    --color5-dark: rgb(203, 157, 140);
+    --color5: rgb(254, 196, 174);
+    --color5-light: rgb(255, 218, 202);
+
+    /* Variaciones de AEC8A6 */
+    --color6-dark: rgb(139, 160, 133);
+    --color6: rgb(174, 200, 166);
+    --color6-light: rgb(209, 240, 199);
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+.main{
+    width: 85%;
+    margin: 1rem auto;
+    padding: 1rem;
+    min-height: 85vh;
+    background-color: white;
+    box-shadow: 2px 2px 8px var(--color4);
+    box-shadow: 1px 1px 5px gray;
+}
+.navbar{
+    /* background: linear-gradient(var(--color4-light), var(--color6-light)); */
+    background-color: var(--color4-light);
+    box-shadow: 0 5px 8px var(--color1);
+}
+
+.navbar *{
+    color: var(--color1)
+}
+
+.nav-link:hover{
+    color: white
+}
+
+.table{
+    box-shadow: 2px 2px 10px gray;
+    /* box-shadow: 2px 2px 8px var(--color1); */
+}
+
+.btn{
+    box-shadow: 2px 2px 10px var(--color1-dark);
+    color: var(--color1-light)
+}
+.btn:hover{
+    color: white;
+}
+
+.btn img{
+    width: 20px;    
+    aspect-ratio: 1;
+}
+.btn-1{
+    background-color: var(--color4-light);
+    border-color: var(--color4-light);
+}
+.btn-1:hover, .btn-1:active{
+    background-color: var(--color4);
+    border-color: var(--color4);
+}
+
+.btn-2{
+    background-color: var(--color2);
+    border-color: var(--color2);
+}
+.btn-2:hover, .btn-2:active{
+    background-color: var(--color2-dark);
+    border-color: var(--color2-dark);
+}
+.container-table{
+    overflow-x: auto;
+    width: 100%;
+    padding: 1rem;
+}
+
+.container-add{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+
+
+
